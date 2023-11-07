@@ -1,3 +1,68 @@
 Art Project
-Toba Akinyemi: <Insert RCS ID>
+Toba Akinyemi: akinyo2
 Josh Zheng: zhengj9
+
+Project Overview
+Goals:
+- Explore the potential of AI in the field of art
+- Evaluate the quality of AI-generated art through the use of a separate judging AI system trained on the winning results from art competitions
+- By utilizing the capabilities of both the art-generation and the judging AIs, we hope to identify the AI-generated art pieces that best align with human aesthetic preferences.
+- In doing so, we aspire to develop an AI that produces art that best encapsulates human subjectivity, aiming for an "optimal" artistic outcome.
+
+Related AI Projects
+- Not much research done in the realm of using AI to judge art
+  - YOLO has been tested on paintings
+    - Able to perform classification and detection (though not very impressive)
+- Art generation on the other hand has been worked on extensively
+  - DALL-E
+  - Bing
+  - Midjourney
+  - etc.
+
+Functional Requirements:
+- Generate 10 pieces of art in an art style specified by the user
+- Train a neural network to find patterns across the winning results from art competitions
+- Rank generated art pieces by likelihood of winning an art contest
+
+Non-Functional Requirements:
+- The art-generation AI should be able to generate the 10 art pieces less than 60 seconds
+- The judging AI’s preferences should be consistent and produce the same results across repeated trials
+- The user interface should be accessible to both technical and non-technical users
+
+Technologies to Be Used
+- Programming Language: Python 3, NumPy, OpenCV/PyTorch
+- DALL-E 3: Image generation - OpenAI API
+
+User Profiles
+- Professional and Amateur Artists: evaluate their own art pieces
+- Art Educators: teach students about techniques for quality art in a more visual and interactive manner
+- Art Museums:  explore opportunities for exhibiting AI-generated art
+- Art Judges: define more objective criteria for AI art competitions
+- Psychologists: learn more about the nature of human subjectivity
+
+Technical Limitations
+Generation
+- Human figures (hands, teeth, etc.)
+- Input quality (bad prompt = bad image)
+- Accuracy of image to prompt
+Evaluation
+- Can’t properly “rank” the images
+- Classification does not have a limit of one image per label
+- As such, limited to giving each image a general ranking instead of a comparative one
+
+User Interface (UI)/User Experience (UX)
+1. Begin with a “Generate Art” button
+2. User selects art-style from a drop-down menu
+3. Loading bar while AI is generating art pieces
+4. After generation is complete, art pieces are displayed in grid format
+5. User can press “Judge Art” button
+6. There may be multiple art pieces for each placing
+- Accessible to non-technical and inartistic users
+
+Team Roles and Responsibility
+Toba and Josh
+- Development and training of model
+- Creation of presentations/reports
+- Documentation
+- Generation of AI art
+- Testing of network with generated art
