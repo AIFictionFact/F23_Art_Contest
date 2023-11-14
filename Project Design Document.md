@@ -1,4 +1,4 @@
-# Art Project Design Document
+# Project Design Document
 
 ## Project Overview
 
