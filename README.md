@@ -1,4 +1,4 @@
-# Art Generation and Competition Analysis
+# Art Contest
 
 ## Overview
 
