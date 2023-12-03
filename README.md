@@ -12,3 +12,6 @@ Then, using an AI that has been trained on the results of past art competitions,
 
 ### Model Architecture
 The model we will use is a neural network where the inputs are artworks and the labels are the position they got in the competition. To save time, we will use a pre-trained network and a new layer on top that will be trained instead of training a full network from scratch.
+
+## Ethical Use Guidelines
+For detailed information on the ethical use of our AI project, please refer to our [Ethical Use Guidelines](./Ethical Use Guidelines.md).
